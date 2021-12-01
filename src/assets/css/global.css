@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.el-card{
+  margin-top:25px;
+}
+.el-table{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.roles-row{
+  margin-left: 50px;
+}
+.el-t{
+  margin:7px 0px;
+}
+.bTop{
+  border-top:1px solid #EBEEF5;
+}
+.bBottom{
+  border-bottom: 1px solid #EBEEF5;
+}
+.table-flex{
+  display:flex;
+  align-items: center;
+}
+.self-p{
+  margin:20px 0px;
+}
