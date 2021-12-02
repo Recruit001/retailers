@@ -10,6 +10,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 // 导入 iconfont 样式
 import("./assets/fonts/iconfont.css")
 
+// 导入使用ZKTable
+import ZkTable from 'vue-table-with-tree-grid'
+
 // 全局样式设置
 import("./assets/css/global.css")
 
@@ -17,6 +20,8 @@ import("./assets/css/global.css")
 Vue.config.productionTip = false
 
 Vue.use(ElementUI);
+// Vue.use(ZkTable)
+Vue.component('ZkTable', ZkTable)
 
 // 注册全局请求函数
 Vue.prototype.$getApi = getApi
