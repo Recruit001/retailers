@@ -8,7 +8,14 @@
     </el-breadcrumb>
     <!-- 卡片区域 -->
     <el-card>
-      123
+      <!-- 搜索区域 -->
+      <el-row>
+        <el-col :span = "8">
+          <el-input placeholder="请输入内容">
+            <el-button slot="append" icon="el-icon-search"></el-button>
+          </el-input>
+        </el-col>
+      </el-row>
     </el-card>
   </div>
 </template>
